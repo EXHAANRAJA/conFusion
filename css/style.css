@@ -50,3 +50,7 @@ body{
     margin: 2px;
     text-align: left;
 }
+#accordion,card-header
+{
+    color: black;
+}
