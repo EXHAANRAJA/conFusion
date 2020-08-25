@@ -10,7 +10,6 @@
     min-height: 150px;
 }
 
-
 .footer {
     background-color: #D1C4E9;
     margin: 0px;
@@ -31,18 +30,16 @@
     color: #0f0f0f;
 }
 
-body{
+body {
     padding: 50px 0px 0px 0px;
     z-index: 0px;
 }
 
-.navbar-dark
-{
+.navbar-dark {
     background-color: #512DA8;
 }
 
-.tab-content
-{
+.tab-content {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -50,16 +47,18 @@ body{
     margin: 2px;
     text-align: left;
 }
-#accordion,card-header
-{
+
+#accordion,
+card-header {
     color: black;
 }
+
 .carousel {
-    background:#512DA8;
+    background: #512DA8;
 }
 
 .carousel-item {
-  height: 300px;
+    height: 300px;
 }
 
 .carousel-item img {
