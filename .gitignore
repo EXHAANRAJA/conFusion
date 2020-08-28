@@ -4,3 +4,4 @@ node_modules
 **/ignorefile
 *.zip
 *.mpeg
+dist
