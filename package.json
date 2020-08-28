@@ -13,7 +13,7 @@
     "clean": "rimraf dist",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
     "imagemin": "imagemin img/* --out-dir dist/img/",
-    "usemin": "usemin contactus.html -d dist -o dist/contactus.html --htmlmin && usemin index.html -d dist -o dist/index.html --htmlmin",
+    "usemin": "usemin contactus.html -d dist -o dist/contactus.html --htmlmin && usemin index.html -d dist -o dist/index.html --htmlmin && usemin aboutus.html -d dist -o dist/aboutus.html",
     "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
   },
   "author": "",
